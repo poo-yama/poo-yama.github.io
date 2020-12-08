@@ -52,7 +52,7 @@
 }
 
 .main-profile{
-    background-image:url(./image/IMG_6769.png);
+    background-image:url(./IMG_6769.png);
     background-size:cover;
     background-color:rgba(255,255,255,0.5);
     background-blend-mode:lighten;
@@ -86,7 +86,7 @@
 }
 
 .main-skill{
-    background-image:url(./image/java.png);
+    background-image:url(./java.png);
     background-size:cover;
     width:100%;
 }
@@ -273,7 +273,7 @@
 
 
 .main-pr{
-    background-image:url(./image/about.png);
+    background-image:url(./about.png);
     background-size:cover; 
     width:100%;
 }
