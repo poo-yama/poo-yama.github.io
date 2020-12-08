@@ -1,0 +1,415 @@
+* { 
+    box-sizing:border-box;
+    margin:0px;
+    padding:0px;
+}
+
+＃body{
+    width:1280px;
+}
+
+
+＃header{
+    
+}
+
+.header-image{
+    width:100%;
+
+}
+.header-menu{
+    background-color: #0602fa;
+    padding:0px 0px 0px 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header-menu  a {
+    color:white;
+    display:inline-block;
+    padding:20px 20px 20px 100px;
+    font-family:'Courier';
+    text-decoration: none;
+    font-size:25px;
+    font-weight:800;
+    opacity:0.8;
+}
+
+.header-menu a:hover{
+    color:white;
+    text-decoration:none;
+    display:inline-block;
+    background-color:black;
+    padding:20px 20px 10px 100px;
+    font-family:'Courier';
+    font-size:25px;
+    font-weight:800;
+    opacity:0.5;
+}
+
+.twitter-follow-button{
+
+}
+
+.main-profile{
+    background-image:url(./image/IMG_6769.png);
+    background-size:cover;
+    background-color:rgba(255,255,255,0.5);
+    background-blend-mode:lighten;
+    width:100vw;
+}
+
+.main{
+    text-align:center;
+}
+
+.main-profile-title{
+    display:inline-block;
+    padding:30px 0px 0px 0px;
+    color:rgb(240, 235, 235);
+    text-shadow:2px  5px 1px  #10107e;
+    font-family: 'arial black';
+    font-size:40px;
+    background: linear-gradient(transparent 50%, rgb(253, 253, 5) 50%);
+}
+
+.main-profile-data h3{
+    text-shadow:2px  2px 1px  white;
+}
+
+.main-profile-data p{
+    height:100%;
+    padding-bottom:30px; 
+    letter-spacing: 5px;
+    line-height: 25px;
+    text-shadow:2px  1px 1px  white;
+}
+
+.main-skill{
+    background-image:url(./image/java.png);
+    background-size:cover;
+    width:100%;
+}
+
+.main-skill h3{
+    display:inline-block;
+    padding:30px 0px 0px 0px;
+    color:rgb(240, 235, 235);
+    text-shadow:2px  5px 1px  #10107e;
+    font-family: 'arial black';
+    font-size:40px;
+    background: linear-gradient(transparent 50%, rgb(253, 253, 5) 50%);
+}
+
+.main-skill p{
+    font-size:20px;
+    font-family:Impact;
+    color:red;
+    padding:40px;
+    text-shadow: 3px 3px 5px #808080; 
+
+}
+
+
+.html-star{
+    position   : relative;               /* 指定した分だけ相対的に移動 */
+    font-size: 50 px;              /* フォントサイズ */
+    letter-spacing : 0px;                /* 文字間隔 */
+}
+.html-star:before{
+    position: absolute;                  /* 親要素を基準 */
+    display: inline-block;               /* ブロック要素 */
+    color: #999999;               /* ★の色 */
+    white-space:nowrap;                  /* 改行不可 */
+    top: 0;                              /* 上限より表示 */
+    left: 0;                             /* 左端より表示 */
+    line-height:1em;                     /* 高さを指定 */
+    content:"★★★";      /* ★の指定 */
+ }
+ .html-star:after{
+    position: absolute;                  /* 親要素を基準 */
+    display: inline-block;               /* ブロック要素 */
+    color: #ffff1a;               /* ★の色 */
+    white-space:nowrap;                  /* 改行不可 */
+    top: 0;                              /* 上限より表示 */
+    left: 0;                             /* 左端より表示 */
+    line-height:1em;                     /* 高さを指定 */
+    overflow:hidden;                     /* オーバーフロー部分は非表示 */
+    width: 90px;        /* 評価★の幅 */
+    content:"★★★☆☆";      /* ★の指定 */
+  }
+
+ .java-star{
+    position   : relative;               /* 指定した分だけ相対的に移動 */
+    font-size: 50 px;              /* フォントサイズ */
+    letter-spacing : 0px;                /* 文字間隔 */
+}
+.java-star:before{
+    position: absolute;                  /* 親要素を基準 */
+    display: inline-block;               /* ブロック要素 */
+    color: #999999;               /* ★の色 */
+    white-space:nowrap;                  /* 改行不可 */
+    top: 0;                              /* 上限より表示 */
+    left: 0;                             /* 左端より表示 */
+    line-height:1em;                     /* 高さを指定 */
+    content:"★★★";      /* ★の指定 */
+ }
+ .java-star:after{
+    position: absolute;                  /* 親要素を基準 */
+    display: inline-block;               /* ブロック要素 */
+    color: #ffff1a;               /* ★の色 */
+    white-space:nowrap;                  /* 改行不可 */
+    top: 0;                              /* 上限より表示 */
+    left: 0;                             /* 左端より表示 */
+    line-height:1em;                     /* 高さを指定 */
+    overflow:hidden;                     /* オーバーフロー部分は非表示 */
+    width: 90px;        /* 評価★の幅 */
+    content:"★★★☆☆";      /* ★の指定 */
+ }
+
+ .photoshop-star{
+    position   : relative;               /* 指定した分だけ相対的に移動 */
+    font-size: 50 px;              /* フォントサイズ */
+    letter-spacing : 0px;                /* 文字間隔 */
+}
+
+.photoshop-star:before{
+    position: absolute;                  /* 親要素を基準 */
+    display: inline-block;               /* ブロック要素 */
+    color: #999999;               /* ★の色 */
+    white-space:nowrap;                  /* 改行不可 */
+    top: 0;                              /* 上限より表示 */
+    left: 0;                             /* 左端より表示 */
+    line-height:1em;                     /* 高さを指定 */
+    content:"★★";      /* ★の指定 */
+ }
+
+ .photoshop-star:after{
+    position: absolute;                  /* 親要素を基準 */
+    display: inline-block;               /* ブロック要素 */
+    color: #ffff1a;               /* ★の色 */
+    white-space:nowrap;                  /* 改行不可 */
+    top: 0;                              /* 上限より表示 */
+    left: 0;                             /* 左端より表示 */
+    line-height:1em;                     /* 高さを指定 */
+    overflow:hidden;                     /* オーバーフロー部分は非表示 */
+    width: 60px;        /* 評価★の幅 */
+    content:"★★☆☆☆";      /* ★の指定 */
+  }
+
+
+.img-photo1{
+    padding-top:50px;
+}
+
+.skill-html{
+    padding-left:50px;
+}
+
+.html-logo{
+    width: 80px;
+    height:50px;
+    top:50px;
+}
+
+.skill-html dt{
+    display:inline-block;
+    padding-top:20px;
+    padding-bottom:20px;
+    font-size:30px;
+    font-family:'Haettenschweiler';
+}
+
+.skill-html dd{
+    line-height: 50px;
+    font-family:HiraKakuPro-W6;
+    text-shadow:2px  1px 1px  white;
+}
+
+.skill-java dt{
+    display:inline-block;
+    padding-top:20px;
+    padding-bottom:20px;
+    font-size:30px;
+    font-family:'Haettenschweiler';
+}
+
+.skill-java dd{
+    line-height: 50px;
+    font-family:HiraKakuPro-W6;
+    text-shadow:2px  1px 1px  white;
+}
+
+.skill-java{
+    clear: both;
+    padding-left:80px;
+}
+
+.java-logo{
+    width: 70px;
+    height:70px;
+}
+
+.skill-photoshop dt{
+    display:inline-block;
+    padding-top:20px;
+    padding-bottom:20px;
+    font-size:30px;
+    font-family:'Haettenschweiler';
+}
+
+.skill-photoshop dd{
+    line-height: 50px;
+    font-family:HiraKakuPro-W6;
+    text-shadow:2px  1px 1px  white;
+}
+
+.photoshop-logo{
+    width: 50px;
+    height:50px;
+    top:50px;
+}
+
+
+
+.main-pr{
+    background-image:url(./image/about.png);
+    background-size:cover; 
+    width:100%;
+}
+
+
+.main-pr h3{
+    display:inline-block;
+    padding:30px 0px 0px 0px;
+    color:rgb(240, 235, 235);
+    text-shadow:2px  5px 1px  #10107e;
+    font-family: 'arial black';
+    font-size:40px;
+    background: linear-gradient(transparent 50%, rgb(253, 253, 5) 50%);
+}
+
+.main-pr dt{
+    font-size:35px;
+    font-family:Impact;
+    color:red;
+    text-shadow: 3px 3px 5px #808080; 
+    padding-top:100px;
+    padding-bottom:100px;
+}
+
+.main-pr dd{
+    font-size:25px;
+    line-height: 120px;
+    font-family:HiraKakuPro-W6;
+    text-shadow:2px  1px 1px  white;
+}
+
+
+.title{
+    display:inline-block;
+    font-size:30px;
+    padding:30px 30px 30px 30px;
+}
+
+.main-button{
+    text-align:center;
+    padding:70px;
+}
+
+.btn{
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.5;
+  position: relative;
+  display: inline-block;
+  padding:10px 30px;
+  cursor: pointer;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  color: white;
+  border-radius: 0.5rem;
+  margin:30px 30px;
+}
+
+.btn-top {
+    color:black;
+    background-color:#06d6f1;
+}
+
+
+.footer-backcolor{
+    height:100px;
+    background-color:#0602fa;
+    color:#ffffff;
+    opacity:0.7;
+}
+
+.footer-backcolor h5{
+    position: relative;
+    top:80px;
+    bottom:10px;
+    font-family:Arial, Helvetica, sans-serif;
+    opacity:0.7;
+}
+
+
+/* ボタン全体 */
+.flowbtn3{
+    font-family:'Comic Sans MS','Chalkboard SE',sans-serif;/* 好きなフォントに変えてね */
+    border-radius:50%;
+    position:relative;
+    display:inline-block;
+    width:70px;
+    height:70px;
+    font-size:30px;
+    color:#fff!important;
+    text-decoration:none;
+    transition:.5s;
+    }
+    .flowbtn3 i{
+    position:relative;
+    bottom:5px;
+    }
+    /* Twitter */
+    .fl_tw1{
+    background:#55acee;
+    }
+    
+    /* Facebook */
+    .fl_fb1{
+    background:#3b5998;
+    }
+    
+    /* ボタン内のテキスト */
+    .flowbtn3 div{
+    font-size:11px;	
+    font-weight:bold;
+    position:relative;
+    bottom:21px;
+    }
+    /* ulタグの内側余白を０にする */
+    ul.snsbtniti{
+    padding:0!important;
+    }
+    /* ボタン全体の位置 */
+    .snsbtniti{
+    display:flex;
+    flex-flow:row wrap;
+    justify-content:space-around;
+    }
+    /* ボタン同士の余白 */
+    .snsbtniti li{
+    flex:0 0 33%;
+    text-align:center!important;
+    }
+    /* ボタンにマウスホバー時 */
+    .flowbtn3:hover{
+    -webkit-transform:translateY(-5px);
+    -ms-transform:translateY(-5px);
+    transform:translateY(-5px);
+    text-decoration:none;
+    }
+
